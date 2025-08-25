@@ -1,6 +1,8 @@
 # Simple Django Board
 
 ## 프로젝트 설명
+<img width="1256" height="848" alt="스크린샷 2025-08-25 161732" src="https://github.com/user-attachments/assets/38169931-2098-408e-b153-95782989749a" />
+<img width="1257" height="771" alt="스크린샷 2025-08-25 161723" src="https://github.com/user-attachments/assets/320e1da5-a247-4958-be92-bc80f69a63a4" />
 
 이 프로젝트는 Django 프레임워크를 사용하여 개발된 간단한 게시판 웹 애플리케이션입니다. 기본적인 게시물 생성, 목록 보기, 상세 보기 기능을 제공합니다.
 
