@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>게시물 목록</title>
+</head>
+<body>
+    <h1>게시물 목록</h1>
+    <ul>
+        {% for post in posts %}
+            <li><a href="{% url 'board:post_detail' pk=post.pk %}">{{ post.title }}</a></li>
+        {% empty %}
+            <li>게시물이 없습니다.</li>
+        {% endfor %}
+    </ul>
+    <a href="/admin/board/post/add/">새 게시물 추가 (관리자 페이지)</a>
+</body>
+</html>
